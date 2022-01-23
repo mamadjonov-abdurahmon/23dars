@@ -1,0 +1,62 @@
+.intro{
+ display: flex;
+ align-items: center;
+}
+
+
+.intro-section{
+ background-image:url("../images/soatt.png");
+ background-repeat: no-repeat;
+ background-size:  582px 607px;
+ background-position: calc(50% + 605px) calc(50% + 20px);
+ padding-top: 79px;
+ margin-bottom: 65px;
+}
+
+.intro__boxs{
+ display: flex;
+ align-items: center;
+}
+
+.intro__box{
+ width: 490px;
+ margin-bottom: 185px;
+}
+
+.intro__taitl{
+ font-size: 50px;
+ line-height: 120%;
+ color: #000;
+ margin: 0;
+ margin-bottom: 30px;
+}
+
+.intro__text{
+ font-size: 16px;
+ line-height: 150%;
+ margin: 0;
+ margin-bottom: 30px;
+ padding-left: 40px;
+ border-left: 2px solid #888888;
+}
+
+.intro__link{
+ display: block;
+ width: 150px;
+ text-decoration: none;
+ color: #fff;
+ padding: 12px 38px;
+ background: #EA625C;
+ font-size: 18px;
+ line-height: 150%;
+ &:hover{
+  background-color:#C8413C;
+  transition: all 0.4s ease;
+ }
+}
+
+.line{
+ width: 100%;
+ color: #DDDDDD;
+ margin-bottom: 68px;
+}

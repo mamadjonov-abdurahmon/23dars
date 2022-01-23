@@ -1,0 +1,26 @@
+
+footer{
+ background-image: url("../images/sportss.png");
+ background-size: 1250px 830px;
+ background-repeat: no-repeat;
+ background-position: calc(50%);
+}
+
+.footer-box{
+ display: flex;
+ flex-direction: row-reverse;
+ padding-top: 240px;
+}
+
+.footer-box .intro__taitl{
+ color: #fff;
+}
+
+.footer-box .intro__text{
+ color: #fff;
+ border-left: 1px solid #fff;
+}
+
+.footer-box .intro__link{
+ padding: 12px 46px;
+}
